@@ -1,0 +1,96 @@
+body{
+   background-color: #2ccc93;
+
+   margin:0;
+}
+
+.container{
+    background-image: url("wave.png");
+    background-color: gainsboro;
+    background-size: cover;
+    display: inline-block;
+    width:50%;
+    height:50%;
+    border-radius: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:30%;
+    left:30%;
+    border: 1px solid rgba(0,0,0,5);
+    box-shadow: 2px 5px black;
+}
+
+form{
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+input{
+    position: absolute;
+    left:80px;
+    border-radius: 8px;
+    border:none;
+    padding:5px 6px;
+    font-size: 1rem;
+    outline: none;
+    font-weight: bold;
+
+}
+
+.heading{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: bold;
+    left:80%;
+    top:50%;
+
+}
+
+.submit{
+position: absolute;
+left:120%;
+top:105%;
+color:black;
+background-color: cyan;
+border-radius: 6px;
+padding:7px 15px;
+}
+
+.submit:hover{
+    background-color:black;
+    color:white;
+    transition: 0.6s ease;
+}
+.img{
+    width:25%;
+    position: absolute;
+    left:50%;
+    top:-22%;
+    border-radius: 50%;
+}
+
+.link{
+    display:inline-block;
+    position: absolute;
+    left:65%;
+    top:75%;
+
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.link a:hover{
+    color:white;
+    background-color: black;
+    transition: 0.2s ease-in;
+}
+
+.heading{
+font-family: cursive;
+
+
+}
